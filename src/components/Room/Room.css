@@ -1,0 +1,30 @@
+.Room 
+{
+    width: 80vw;
+    height: 70vh;
+    text-align: center;
+}
+
+.partOne
+{
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    margin-bottom: 0;
+    margin: 0 auto;
+}
+
+.partTwo
+{
+    width: 40px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: yellow;
+    border: 0.5px solid black;
+    margin-top: 0;
+    margin: 0 auto;
+}
+.Dark, .Lit
+{
+    color: purple;
+}

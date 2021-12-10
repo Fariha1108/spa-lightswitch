@@ -1,9 +1,11 @@
-import React from 'react'
+import { Room } from './components';
+import './App.css';
 
 export default function App() {
     return (
         <div>
-            <h1>Hello World</h1>
+            <h1 style={{ textAlign: "center" }}>Mein stylischer Raum</h1>
+            <Room visibilityState={false} />
         </div>
     )
 }
