@@ -1,0 +1,54 @@
+.Couch
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.back, .sit
+{
+    height: 0;  
+    width: 180px;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-radius: 20px;
+    
+}
+
+.back 
+{
+    border-top: 100px solid darkred;
+    
+}
+
+.sit
+{
+    border-bottom: 80px solid darkred;
+}
+
+.Feet
+{
+    display: flex;
+}
+
+.leftFoot, .rightFoot
+{
+    height: 0; 
+    width: 30px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-radius: 20px;
+    border-bottom: 40px solid rgb(46, 32, 32);
+}
+
+.leftFoot
+{
+    margin-right: 40px;
+}
+
+.rightFoot
+{
+    margin-left: 40px;
+}

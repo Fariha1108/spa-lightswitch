@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button } from '..';
+import { Couch } from '..';
 import './Room.css';
 
 
@@ -39,11 +40,15 @@ const Room = ({ visibilityState }) => {
                     onClick={lightSwitch}
                 />
             </div>
-            <h2 className="Lit"
+            <div className="Lit"
                 style={{
                     display: `${visible ? "block" : "none"}`
                 }}
-            >"The room is lit"</h2>
+            >
+                <h2>"The room is lit"</h2>
+                <Couch />
+            </div>
+
             <h2 className="Dark"
                 style={{
                     display: `${visible ? "none" : "block"}`
